@@ -1,0 +1,27 @@
+{
+  "name": "browsergap.js",
+  "version": "1.0.0",
+  "description": "BrowserGap client-side library",
+  "main": "browsergap.js",
+  "scripts": {
+    "test": "serve -p 8080 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cris691/browsergap.js.git"
+  },
+  "keywords": [
+    "browsergap",
+    "dosy",
+    "library",
+    "api",
+    "remote-browser-isolation",
+    "headless-chrome"
+  ],
+  "author": "@dosy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cris691/browsergap.js/issues"
+  },
+  "homepage": "https://github.com/cris691/browsergap.js#readme"
+}
