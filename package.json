@@ -1,6 +1,6 @@
 {
   "name": "browsergapjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "BrowserGap client-side library",
   "main": "browsergap.js",
   "scripts": {
