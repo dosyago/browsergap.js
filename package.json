@@ -4,7 +4,7 @@
   "description": "BrowserGap client-side library",
   "main": "browsergap.js",
   "scripts": {
-    "test": "serve -p 8080 test"
+    "test": "cp browsergap.js test/ && serve -p 8080 test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/cris691/browsergap.js/issues"
   },
-  "homepage": "https://github.com/cris691/browsergap.js#readme"
+  "homepage": "https://github.com/cris691/browsergap.js#readme",
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
 }
