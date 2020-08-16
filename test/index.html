@@ -1,16 +1,16 @@
-<form onsubmit="openInBrowser(event);">
-  <input type=url required name=url>
-  <br>
-  <button>Submit</button>
-</form>
-<script type=module>
-  import BrowserGap from './browsergap.js';
+  <form onsubmit="openInBrowser(event);">
+    <input type=url required name=url>
+    <br>
+    <button>Submit</button>
+  </form>
+  <script type=module>
+    import BrowserGap from './browsergap.js';
 
-  const BG = BrowserGap('keyPbx2lVRikTyp0GIA4CRoFW');
+    const BG = BrowserGap('keyPbx2lVRikTyp0GIA4CRoFW');
 
-  self.openInBrowser = event => {
-    event.preventDefault();
-    const {value:url} = event.target.url; 
-    BG.openSecurely(url);
-  }
-</script>
+    self.openInBrowser = event => {
+      event.preventDefault();
+      const {value:url} = event.target.url; 
+      BG.openSecurely(url);
+    }
+  </script>
