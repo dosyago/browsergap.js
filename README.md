@@ -14,3 +14,8 @@ An API to open a link in a secure remote browser context. Calling the below will
   BG.openSecurely(url);
 ```
 
+## API Keys
+
+You can [purchase an API key](https://browsergap.dosyago.com) whenever you need one. 
+
+Currently they give you a number of secure opens per month.

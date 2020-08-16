@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cris691/browsergap.js.git"
+    "url": "git+https://github.com/dosyago/browsergap.js.git"
   },
   "keywords": [
     "browsergap",
@@ -21,9 +21,9 @@
   "author": "@dosy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cris691/browsergap.js/issues"
+    "url": "https://github.com/dosyago/browsergap.js/issues"
   },
-  "homepage": "https://github.com/cris691/browsergap.js#readme",
+  "homepage": "https://github.com/dosyago/browsergap.js#readme",
   "devDependencies": {
     "esm": "^3.2.25"
   }
