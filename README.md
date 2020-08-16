@@ -1,6 +1,6 @@
 # browsergap.js
 
-BrowserGap client side library 
+BrowserGap client side library. Open URLs securely with [BrowserGap](https://browsergap.dosyago.com). 
 
 ## `BG.openSecurely(url: URI, options: BGOptions)`
 
