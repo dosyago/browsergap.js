@@ -1,6 +1,6 @@
 {
   "name": "@dosy/browsergapjs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "BrowserGap client-side library",
   "main": "browsergap.js",
   "scripts": {
