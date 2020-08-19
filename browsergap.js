@@ -1,6 +1,8 @@
 //const SERVICE = action => `https://api.browsergap.dosyago.com/v1/${action}`;
 //const SERVICE = action => `https://quarantines.site/v1/${action}`;
-const SERVICE = action => `https://condom.quarantines.site/v1/${action}`;
+//const SERVICE = action => `https://condom.quarantines.site/v1/${action}`;
+const SERVICE = action => `https://isolation.site/v1/${action}`;
+
 
 class BrowserGapAPI {
   constructor(apiKey) {
