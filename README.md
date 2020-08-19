@@ -2,7 +2,7 @@
 
 BrowserGap client side library. Open URLs securely with [BrowserGap](https://browsergap.dosyago.com). 
 
-As specially used by [Condom the Web](https://condom.quarantines.site)
+As specially used by [ISOlation.SITE](https://isolation.site)
 
 ## `BG.openSecurely(url: URI)`
 
