@@ -6,6 +6,12 @@ BrowserGap client side library. Open URLs securely with [BrowserGap](https://bro
 
 As specially used by [ISOlation.SITE](https://isolation.site)
 
+## get it
+
+```shell
+npm I --save @dosy/browsergap.js
+```
+
 ## `BG.openSecurely(url: URI)`
 
 An API to open a link in a secure remote browser context. Calling the below will open a new tab.
