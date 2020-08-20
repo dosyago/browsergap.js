@@ -2,6 +2,8 @@
 
 BrowserGap client side library. Open URLs securely with [BrowserGap](https://browsergap.dosyago.com). 
 
+"Pixel" distancing and quarantine for the web. Supports PDF and other document formats not just web sites.
+
 As specially used by [ISOlation.SITE](https://isolation.site)
 
 ## `BG.openSecurely(url: URI)`
