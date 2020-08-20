@@ -31,3 +31,8 @@ Example using snowpack:
 You can [purchase an API key](https://browsergap.dosyago.com) whenever you need one. 
 
 Currently they give you a number of secure opens per month.
+
+## don't want to pay?
+
+Try the free demo: https://isolation.site
+
