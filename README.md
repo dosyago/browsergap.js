@@ -1,4 +1,4 @@
-# browsergap.js
+# :sweat_drops: browsergap.js
 
 BrowserGap client side library. Open URLs securely with [BrowserGap](https://browsergap.dosyago.com). 
 
