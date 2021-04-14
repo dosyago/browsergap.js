@@ -1,8 +1,4 @@
-//const SERVICE = action => `https://api.browsergap.dosyago.com/v1/${action}`;
-//const SERVICE = action => `https://quarantines.site/v1/${action}`;
-//const SERVICE = action => `https://condom.quarantines.site/v1/${action}`;
-const SERVICE = action => `https://isolation.site/v1/${action}`;
-
+const SERVICE = action => `https://${location.host}/v1/${action}`;
 
 class BrowserGapAPI {
   constructor(apiKey) {
@@ -27,15 +23,18 @@ class BrowserGapAPI {
 
     if ( err ) {
       throw err;
-    } else {
+    } else if ( portal ) {
       portal.location = loginUrl;
+    } else {
+      window.location = loginUrl;
     }
   }
-};
-
-export default function BG(...args) {
+}
+export function BG(...args) {
   if ( new.target ) {
     throw new TypeError(`BG is not a constructor. Call without using 'new'.`);
   }
   return new BrowserGapAPI(...args);
 }
+
+export default BG;
